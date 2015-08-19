@@ -13,20 +13,50 @@
 <div class="row">
     <div class="col-md-4">
         <h2>Your Projects</h2>
-        <p>
-            List of Projects Assigned to the selected PM
-        </p>
+        <p>List of Projects Assigned to the selected PM</p>
+        <table class="table table-hover">
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.ActionLink(item.ProjectName, "Details/" + item.ProjectID, "Projects")
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
     </div>
     <div class="col-md-4">
         <h2>All Projects</h2>
         <p>Projects in Date order</p>
-        @foreach (var item in Model)
-        {         
-            @Html.ActionLink(item.ProjectName,"Details/" + item.ProjectID, "Projects")
-        }
+        <table class="table table-hover">
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.ActionLink(item.ProjectName, "Details/" + item.ProjectID, "Projects")
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
     </div>
     <div class="col-md-4">
         <h2>Projects without a PM</h2>
         <p>Intake (Part A) is complete, but no one is assigned</p>
+        <table class="table table-hover">
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.ActionLink(item.ProjectName, "Details/" + item.ProjectID, "Projects")
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
     </div>
 </div>
