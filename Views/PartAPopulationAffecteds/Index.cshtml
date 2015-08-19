@@ -1,0 +1,51 @@
+﻿@model IEnumerable<PMProjects.Models.PartAPopulationAffected>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PartA.ProposalTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PopulationName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SpecificImpact)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ImpactLevel)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.PartA.ProposalTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PopulationName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SpecificImpact)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ImpactLevel)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.PartAPopulationAffectedID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.PartAPopulationAffectedID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.PartAPopulationAffectedID })
+        </td>
+    </tr>
+}
+
+</table>

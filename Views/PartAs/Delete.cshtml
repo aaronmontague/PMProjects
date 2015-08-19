@@ -1,0 +1,120 @@
+﻿@model PMProjects.Models.PartA
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>PartA</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Project.ProjectName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Project.ProjectName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sponsor.SponsorName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sponsor.SponsorName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProposalTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProposalTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProposalNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProposalNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PrimaryContact)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrimaryContact)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DesiredDateComplete)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DesiredDateComplete)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SVPApproved)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SVPApproved)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LongerThanTwoWeeks)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LongerThanTwoWeeks)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjectOverview)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjectOverview)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BusinessCase)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BusinessCase)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CoreInterfaces)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CoreInterfaces)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BusinessRisks)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BusinessRisks)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

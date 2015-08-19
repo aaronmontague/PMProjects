@@ -1,0 +1,145 @@
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\PMProjects.dll.config
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\PMProjects.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\PMProjects.pdb
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Antlr3.Runtime.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\EntityFramework.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\EntityFramework.SqlServer.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Newtonsoft.Json.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Owin.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\System.Web.Helpers.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\System.Web.Mvc.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\System.Web.Optimization.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\System.Web.Razor.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\System.Web.WebPages.Deployment.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\System.Web.WebPages.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\System.Web.WebPages.Razor.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\WebGrease.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\System.Web.Helpers.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\System.Web.Mvc.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\System.Web.Optimization.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\System.Web.Razor.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\System.Web.WebPages.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\System.Web.WebPages.Deployment.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\System.Web.WebPages.Razor.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Antlr3.Runtime.pdb
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Newtonsoft.Json.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\EntityFramework.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\EntityFramework.SqlServer.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.dll
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.pdb
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.InitialCreate.resources
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.csproj.GenerateResource.Cache
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.ReqsChanged.resources
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.NullsCheck.resources
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.AllNulls.resources
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.csprojResolveAssemblyReference.cache
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.partAupdate.resources
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.PartAUpdate2.resources
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.PartAUpdate3.resources
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.PartAUpdate4.resources
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.PartAUpdate5.resources
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.PartAUpdate6.resources
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.AddSponsorsModel.resources
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.PartAUpdate7.resources
+C:\Users\amontague\Desktop\NEU\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.PartAUpdate8.resources
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\PMProjects.dll.config
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\PMProjects.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\PMProjects.pdb
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Antlr3.Runtime.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\EntityFramework.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\EntityFramework.SqlServer.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Newtonsoft.Json.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Owin.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\System.Web.Helpers.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\System.Web.Mvc.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\System.Web.Optimization.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\System.Web.Razor.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\System.Web.WebPages.Deployment.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\System.Web.WebPages.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\System.Web.WebPages.Razor.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\WebGrease.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\System.Web.Helpers.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\System.Web.Mvc.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\System.Web.Optimization.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\System.Web.Razor.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\System.Web.WebPages.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\System.Web.WebPages.Deployment.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\System.Web.WebPages.Razor.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Antlr3.Runtime.pdb
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Newtonsoft.Json.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\EntityFramework.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\EntityFramework.SqlServer.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.csprojResolveAssemblyReference.cache
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.InitialCreate.resources
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.ReqsChanged.resources
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.NullsCheck.resources
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.AllNulls.resources
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.partAupdate.resources
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.PartAUpdate2.resources
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.PartAUpdate3.resources
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.PartAUpdate4.resources
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.PartAUpdate5.resources
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.PartAUpdate6.resources
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.AddSponsorsModel.resources
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.PartAUpdate7.resources
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.PartAUpdate8.resources
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.csproj.GenerateResource.Cache
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.dll
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.pdb
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.PartAResourceUpdate1.resources
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.PartAResourceUpdate2.resources
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.PartAPopulationAffectedUpdate1.resources
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.PartAApplicatonAffectedUpdate1.resources
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.PartAPopulationAffectedUpdate2.resources
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.ProjectUpdate.resources
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.ProjectUpdate2.resources

@@ -1,0 +1,147 @@
+﻿@model IEnumerable<PMProjects.Models.Project>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ProjectName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProjectSizingScore)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StartDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EndDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AcutalEndDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CHGnumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProjectDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProjectStatus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProjectCurrentPhase)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RYGStatus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RYGSchedule)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RYGScope)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RYGBudget)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProjectLevelOfRisk)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UpComingMilestones)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KeyIssuesRisks)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProjectInitialBudget)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ITSLead)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ITSProjectManageer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SVPSponsor)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProjectName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProjectSizingScore)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StartDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EndDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AcutalEndDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CHGnumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProjectDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProjectStatus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProjectCurrentPhase)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RYGStatus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RYGSchedule)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RYGScope)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RYGBudget)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProjectLevelOfRisk)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UpComingMilestones)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KeyIssuesRisks)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProjectInitialBudget)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ITSLead)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ITSProjectManageer)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SVPSponsor)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ProjectID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ProjectID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ProjectID })
+        </td>
+    </tr>
+}
+
+</table>

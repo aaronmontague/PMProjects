@@ -1,0 +1,106 @@
+﻿@model PMProjects.Models.Project
+
+@{
+    ViewBag.Title = "Create_Public";
+}
+
+<h2>Submit Project</h2>
+
+@* script to display correct submit button *@
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('input[type="checkbox"]').click(function () {
+            if ($(this).attr("value") == "displaybutton") {
+                $(".displaybutton").toggle();
+            }
+        });
+    });
+</script>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Project</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.ProjectName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ProjectName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ProjectName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ProjectDescription, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.ProjectDescription, new { rows = "3", @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.ProjectDescription, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.StartDate, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.StartDate, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.StartDate, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2" for="StartDate">Will this take more than 2 weeks?</label>
+            <div class="col-md-10">
+                <input type="checkbox" name="colorCheckbox" value="displaybutton">
+                <p class="help-block displaybutton">If it won't take more than 2 week, please submit a Service Now ticket</p>
+            </div>
+        </div>
+
+        <div class="form-group displaybutton" style="display:none">
+            @Html.LabelFor(model => model.CHGnumber, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CHGnumber, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.CHGnumber, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group displaybutton" style="display:none">
+            @Html.LabelFor(model => model.ProjectInitialBudget, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ProjectInitialBudget, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ProjectInitialBudget, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group displaybutton" style="display:none">
+            @Html.LabelFor(model => model.SVPSponsor, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SVPSponsor, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.SVPSponsor, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group displaybutton" style="display:none">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create Project" class="btn btn-default" />
+            </div>
+        </div>
+        <div class="form-group displaybutton">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Submit Ticket" class="btn btn-default"
+                       onclick="
+                        window.open('https://northeastern.service-now.com/navpage.do', '_blank'),
+                        window.open('/home','_self')" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<PMProjects.Models.Sponsor>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.SponsorName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.SponsorName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.SponsorID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.SponsorID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.SponsorID })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,50 @@
+﻿@model PMProjects.Models.PartAPopulationAffected
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Part A - Affected Population</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PartA.ProposalTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PartA.ProposalTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PopulationName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PopulationName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SpecificImpact)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SpecificImpact)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImpactLevel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImpactLevel)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PartAPopulationAffectedID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

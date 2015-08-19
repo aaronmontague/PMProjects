@@ -1,0 +1,99 @@
+﻿@model IEnumerable<PMProjects.Models.PartA>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New Part A", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Project.ProjectName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sponsor.SponsorName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProposalTitle)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.ProposalNumber)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.PrimaryContact)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DesiredDateComplete)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.SVPApproved)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LongerThanTwoWeeks)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProjectOverview)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BusinessCase)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CoreInterfaces)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BusinessRisks)
+        </th>*@
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Project.ProjectName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sponsor.SponsorName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProposalTitle)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.ProposalNumber)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.PrimaryContact)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DesiredDateComplete)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.SVPApproved)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LongerThanTwoWeeks)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProjectOverview)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BusinessCase)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CoreInterfaces)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BusinessRisks)
+        </td>*@
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.PartAID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.PartAID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.PartAID })
+        </td>
+    </tr>
+}
+
+</table>

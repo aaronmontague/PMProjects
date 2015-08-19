@@ -1,0 +1,58 @@
+﻿@model PMProjects.Models.PartAResource
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Part A - Resource</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PartA.ProposalTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PartA.ProposalTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ResourceName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ResourceName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.InitialCost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InitialCost)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RecurringCost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RecurringCost)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FundingSource)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FundingSource)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PartAResourceID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

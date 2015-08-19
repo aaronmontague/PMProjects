@@ -1,0 +1,178 @@
+﻿@model PMProjects.Models.Project
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Project</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjectName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjectName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjectSizingScore)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjectSizingScore)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StartDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StartDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EndDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EndDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AcutalEndDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AcutalEndDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CHGnumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CHGnumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjectDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjectDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjectStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjectStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjectCurrentPhase)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjectCurrentPhase)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RYGStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RYGStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RYGSchedule)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RYGSchedule)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RYGScope)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RYGScope)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RYGBudget)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RYGBudget)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjectLevelOfRisk)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjectLevelOfRisk)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UpComingMilestones)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UpComingMilestones)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.KeyIssuesRisks)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KeyIssuesRisks)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjectInitialBudget)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjectInitialBudget)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ITSLead)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ITSLead)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ITSProjectManageer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ITSProjectManageer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SVPSponsor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SVPSponsor)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ProjectID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
