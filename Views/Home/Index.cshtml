@@ -1,4 +1,6 @@
-﻿@{
+﻿@model IEnumerable<PMProjects.Models.Project>
+
+@{
     ViewBag.Title = "Home Page";
 }
 
@@ -18,6 +20,10 @@
     <div class="col-md-4">
         <h2>All Projects</h2>
         <p>Projects in Date order</p>
+        @foreach (var item in Model)
+        {         
+            @Html.ActionLink(item.ProjectName,"Details/" + item.ProjectID, "Projects")
+        }
     </div>
     <div class="col-md-4">
         <h2>Projects without a PM</h2>

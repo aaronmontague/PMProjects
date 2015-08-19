@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PMProjects.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,9 +9,12 @@ namespace PMProjects.Controllers
 {
     public class HomeController : Controller
     {
+        //need to send info from the DB :)
+        private ApplicationDbContext db = new ApplicationDbContext();
+
         public ActionResult Index()
         {
-            return View();
+            return View(db.Projects.ToList());
         }
 
         public ActionResult About()
