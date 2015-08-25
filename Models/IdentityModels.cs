@@ -41,5 +41,7 @@ namespace PMProjects.Models
         public System.Data.Entity.DbSet<PMProjects.Models.Project> Projects { get; set; }
 
         public System.Data.Entity.DbSet<PMProjects.Models.Sponsor> Sponsors { get; set; }
+
+        public System.Data.Entity.DbSet<PMProjects.Models.ProjectSizingWorksheet> ProjectSizingWorksheets { get; set; }
     }
 }

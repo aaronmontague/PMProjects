@@ -1,0 +1,106 @@
+﻿@model PMProjects.Models.ProjectSizingWorksheet
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ProjectSizingWorksheet</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Project.ProjectName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Project.ProjectName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Question1Value)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Question1Value)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Question2Value)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Question2Value)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Question3Value)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Question3Value)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Question4Value)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Question4Value)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Question5Value)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Question5Value)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Question6Value)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Question6Value)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Question7Value)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Question7Value)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Question8Value)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Question8Value)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Question9Value)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Question9Value)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Question10Value)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Question10Value)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ProjectSizingWorksheetID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

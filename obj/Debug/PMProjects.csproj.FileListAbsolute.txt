@@ -143,3 +143,4 @@ C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProje
 C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.PartAPopulationAffectedUpdate2.resources
 C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.ProjectUpdate.resources
 C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.ProjectUpdate2.resources
+C:\Users\amontague\Desktop\Google Drive\Programming Education\PMProjects\PMProjects\PMProjects\obj\Debug\PMProjects.Migrations.ProjectSizingWorksheetUpdate.resources

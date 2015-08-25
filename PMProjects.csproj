@@ -168,6 +168,7 @@
     <Compile Include="Controllers\PartAResourcesController.cs" />
     <Compile Include="Controllers\PartAsController.cs" />
     <Compile Include="Controllers\ProjectsController.cs" />
+    <Compile Include="Controllers\ProjectSizingWorksheetsController.cs" />
     <Compile Include="Controllers\SponsorsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -251,6 +252,10 @@
     <Compile Include="Migrations\201508182007019_Project Update 2.cs" />
     <Compile Include="Migrations\201508182007019_Project Update 2.Designer.cs">
       <DependentUpon>201508182007019_Project Update 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201508251621515_ProjectSizingWorksheet Update.cs" />
+    <Compile Include="Migrations\201508251621515_ProjectSizingWorksheet Update.Designer.cs">
+      <DependentUpon>201508251621515_ProjectSizingWorksheet Update.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -388,6 +393,11 @@
     <Content Include="Views\PartAs\Edit.cshtml" />
     <Content Include="Views\PartAs\Index.cshtml" />
     <Content Include="Views\Projects\Create_Public.cshtml" />
+    <Content Include="Views\ProjectSizingWorksheets\Create.cshtml" />
+    <Content Include="Views\ProjectSizingWorksheets\Delete.cshtml" />
+    <Content Include="Views\ProjectSizingWorksheets\Details.cshtml" />
+    <Content Include="Views\ProjectSizingWorksheets\Edit.cshtml" />
+    <Content Include="Views\ProjectSizingWorksheets\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -460,6 +470,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201508182007019_Project Update 2.resx">
       <DependentUpon>201508182007019_Project Update 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508251621515_ProjectSizingWorksheet Update.resx">
+      <DependentUpon>201508251621515_ProjectSizingWorksheet Update.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
