@@ -2,15 +2,20 @@
 
 @{
     ViewBag.Title = "Create";
+    //values for the radio buttons. they may change
+    const int Small = 2;
+    const int Medium = 4;
+    const int Large = 8;
+    const int XL = 16;
 }
 
 <h2>Create</h2>
 
 
-@using (Html.BeginForm()) 
+@using (Html.BeginForm())
 {
     @Html.AntiForgeryToken()
-    
+
     <div class="form-horizontal">
         <h4>ProjectSizingWorksheet</h4>
         <hr />
@@ -25,80 +30,245 @@
 
         <div class="form-group">
             @Html.LabelFor(model => model.Question1Value, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Question1Value, new { htmlAttributes = new { @class = "form-control" } })
+            <div class="col-md-2">
+                <p class="text-justify">3 to 5</p>
+                @Html.RadioButtonFor(model => model.Question1Value, Small, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">6 to 10</p>
+                @Html.RadioButtonFor(model => model.Question1Value, Medium, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">11 to 30</p>
+                @Html.RadioButtonFor(model => model.Question1Value, Large, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">30+</p>
+                @Html.RadioButtonFor(model => model.Question1Value, XL, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
                 @Html.ValidationMessageFor(model => model.Question1Value, "", new { @class = "text-danger" })
             </div>
         </div>
 
+        @* Project Duration/Schedule *@
         <div class="form-group">
             @Html.LabelFor(model => model.Question2Value, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Question2Value, new { htmlAttributes = new { @class = "form-control" } })
+            <div class="col-md-2">
+                <p class="text-justify">&lt;3 months. schedule is flexible</p>
+                @Html.RadioButtonFor(model => model.Question2Value, Small, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">3 - 12 months. Schedule can undergo minor variations but deadlines are firm</p>
+                @Html.RadioButtonFor(model => model.Question2Value, Medium, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">1 - 3 years. Deadline is fixed and cannot be changed, schedule is very tight</p>
+                @Html.RadioButtonFor(model => model.Question2Value, Large, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">&gt;3 years. Schedule has no room for flexibility</p>
+                @Html.RadioButtonFor(model => model.Question2Value, XL, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
                 @Html.ValidationMessageFor(model => model.Question2Value, "", new { @class = "text-danger" })
             </div>
         </div>
 
+        @* Project Complexity *@
         <div class="form-group">
             @Html.LabelFor(model => model.Question3Value, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Question3Value, new { htmlAttributes = new { @class = "form-control" } })
+            <div class="col-md-2">
+                <p class="text-justify">Easily understood problem, solution and the solution is readily achievable</p>
+                @Html.RadioButtonFor(model => model.Question3Value, Small, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">
+                    Either difficult to understand problem, solution unclear or solution difficult to achieve
+                </p>
+                @Html.RadioButtonFor(model => model.Question3Value, Medium, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">
+                    Both problem and solution difficult to define or understand, and solution difficult to achieve
+                </p>
+                @Html.RadioButtonFor(model => model.Question3Value, Large, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">
+                    The project involves high complexities and it needs huge effort and resources to get  project done
+                </p>
+                @Html.RadioButtonFor(model => model.Question3Value, XL, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
                 @Html.ValidationMessageFor(model => model.Question3Value, "", new { @class = "text-danger" })
             </div>
         </div>
 
+        @* Technical Complexity *@
         <div class="form-group">
             @Html.LabelFor(model => model.Question4Value, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Question4Value, new { htmlAttributes = new { @class = "form-control" } })
+            <div class="col-md-2">
+                <p class="text-justify">Routine repeat business, no new technology</p>
+                @Html.RadioButtonFor(model => model.Question4Value, Small, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">Enhancement of existing product or service</p>
+                @Html.RadioButtonFor(model => model.Question4Value, Medium, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">Novel product/project with some innovation</p>
+                @Html.RadioButtonFor(model => model.Question4Value, Large, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">Ground-breaking project with high innovation</p>
+                @Html.RadioButtonFor(model => model.Question4Value, XL, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
                 @Html.ValidationMessageFor(model => model.Question4Value, "", new { @class = "text-danger" })
             </div>
         </div>
 
+        @* Strategic Importance *@
         <div class="form-group">
             @Html.LabelFor(model => model.Question5Value, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Question5Value, new { htmlAttributes = new { @class = "form-control" } })
+            <div class="col-md-2">
+                <p class="text-justify">Internal interest only. Minor contribution to business objectives</p>
+                @Html.RadioButtonFor(model => model.Question5Value, Small, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">Some direct business impact and/or relates to a low priority initiative in the Agency’s Strategic Plan. Significant contribution to business objectives</p>
+                @Html.RadioButtonFor(model => model.Question5Value, Medium, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">Affects core Agency service delivery and/or directly relates to key initiatives in the Agency’s Strategic Plan. Major contribution to business objectives</p>
+                @Html.RadioButtonFor(model => model.Question5Value, Large, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">High priority to the initiatives in the Agency's Strategic Plan. Critical to business success</p>
+                @Html.RadioButtonFor(model => model.Question5Value, XL, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
                 @Html.ValidationMessageFor(model => model.Question5Value, "", new { @class = "text-danger" })
             </div>
         </div>
 
+        @* Regulatory Characteristics *@
         <div class="form-group">
             @Html.LabelFor(model => model.Question6Value, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Question6Value, new { htmlAttributes = new { @class = "form-control" } })
+            <div class="col-md-2">
+                <p class="text-justify">No regulatory requirements</p>
+                @Html.RadioButtonFor(model => model.Question6Value, Small, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">Standard regulatory framework</p>
+                @Html.RadioButtonFor(model => model.Question6Value, Medium, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">Challenging regulatory requirements</p>
+                @Html.RadioButtonFor(model => model.Question6Value, Large, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">Highly regulated or novel sector</p>
+                @Html.RadioButtonFor(model => model.Question6Value, XL, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
                 @Html.ValidationMessageFor(model => model.Question6Value, "", new { @class = "text-danger" })
             </div>
         </div>
 
+        @* Requirement stability  *@
         <div class="form-group">
             @Html.LabelFor(model => model.Question7Value, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Question7Value, new { htmlAttributes = new { @class = "form-control" } })
+            <div class="col-md-2">
+                <p class="text-justify">Clear fully-defined agreed objectives</p>
+                @Html.RadioButtonFor(model => model.Question7Value, Small, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">Some requirement uncertainty, minor changes during project</p>
+                @Html.RadioButtonFor(model => model.Question7Value, Medium, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">Major requirement uncertainty, major changes during project</p>
+                @Html.RadioButtonFor(model => model.Question7Value, Large, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">Requirements not finalized and subject to negotiation</p>
+                @Html.RadioButtonFor(model => model.Question7Value, XL, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
                 @Html.ValidationMessageFor(model => model.Question7Value, "", new { @class = "text-danger" })
             </div>
         </div>
 
+        @* Level of change *@
         <div class="form-group">
             @Html.LabelFor(model => model.Question8Value, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Question8Value, new { htmlAttributes = new { @class = "form-control" } })
+            <div class="col-md-2">
+                <p class="text-justify">Impacts a single business unit</p>
+                @Html.RadioButtonFor(model => model.Question8Value, Small, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">Impacts a number of business units</p>
+                @Html.RadioButtonFor(model => model.Question8Value, Medium, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">Impacts on whole of Agency</p>
+                @Html.RadioButtonFor(model => model.Question8Value, Large, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">Impacts more than one Agency, whole of Government or more than one tier of Government</p>
+                @Html.RadioButtonFor(model => model.Question8Value, XL, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
                 @Html.ValidationMessageFor(model => model.Question8Value, "", new { @class = "text-danger" })
             </div>
         </div>
 
+        @* External Dependencies and Inter-related Projects *@
         <div class="form-group">
             @Html.LabelFor(model => model.Question9Value, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Question9Value, new { htmlAttributes = new { @class = "form-control" } })
+            <div class="col-md-2">
+                <p class="text-justify">No major dependencies or inter-related projects</p>
+                @Html.RadioButtonFor(model => model.Question9Value, Small, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">Some external dependencies and inter-related projects but considered low-risk</p>
+                @Html.RadioButtonFor(model => model.Question9Value, Medium, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">Major external dependencies and inter-related projects have high risk</p>
+                @Html.RadioButtonFor(model => model.Question9Value, Large, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">Overall project success depends on external  factors and very high risk is on inter-related projects</p>
+                @Html.RadioButtonFor(model => model.Question9Value, XL, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
                 @Html.ValidationMessageFor(model => model.Question9Value, "", new { @class = "text-danger" })
             </div>
         </div>
 
+        @* Cost *@
         <div class="form-group">
             @Html.LabelFor(model => model.Question10Value, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.EditorFor(model => model.Question10Value, new { htmlAttributes = new { @class = "form-control" } })
+            <div class="col-md-2">
+                <p class="text-justify">&lt; $250K</p>
+                @Html.RadioButtonFor(model => model.Question10Value, Small, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">$250K - $1M</p>
+                @Html.RadioButtonFor(model => model.Question10Value, Medium, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">$1M- $3M</p>
+                @Html.RadioButtonFor(model => model.Question10Value, Large, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
+                <p class="text-justify">&gt;$3M</p>
+                @Html.RadioButtonFor(model => model.Question10Value, XL, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+            <div class="col-md-2">
                 @Html.ValidationMessageFor(model => model.Question10Value, "", new { @class = "text-danger" })
             </div>
         </div>

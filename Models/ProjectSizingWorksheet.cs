@@ -21,31 +21,31 @@ namespace PMProjects.Models
         [DisplayName("# Team Members")]
         public int? Question1Value { get; set; }
 
-        [DisplayName("Project Cost")]
+        [DisplayName("Project Duration/Schedule")]
         public int? Question2Value { get; set; }
 
-        [DisplayName("Project Duration/Schedule")]
+        [DisplayName("Project Complexity")]
         public int? Question3Value { get; set; }
 
-        [DisplayName("Project Complexity")]
+        [DisplayName("Technical Complexity")]
         public int? Question4Value { get; set; }
 
-        [DisplayName("Technical Complexity")]
+        [DisplayName("Strategic Importance")]
         public int? Question5Value { get; set; }
 
-        [DisplayName("Strategic Importance")]
+        [DisplayName("Regulatory Characteristics")]
         public int? Question6Value { get; set; }
 
-        [DisplayName("Regulatory Characteristics")]
+        [DisplayName("Requirement Stability ")]
         public int? Question7Value { get; set; }
 
-        [DisplayName("Requirement Stability ")]
+        [DisplayName("Level of Change")]
         public int? Question8Value { get; set; }
 
-        [DisplayName("Level of Change")]
+        [DisplayName("External Dependencies and Inter-related Projects")]
         public int? Question9Value { get; set; }
 
-        [DisplayName("External Dependencies and Inter-related Projects")]
+        [DisplayName("Project Cost")]
         public int? Question10Value { get; set; }
     }
 }
