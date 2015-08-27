@@ -47,5 +47,8 @@ namespace PMProjects.Models
 
         [DisplayName("Project Cost")]
         public int? Question10Value { get; set; }
+
+        [DisplayName("Project Sizing Score")]
+        public int? ProjectSizingScore { get; set; }
     }
 }

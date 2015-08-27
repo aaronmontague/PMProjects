@@ -257,6 +257,10 @@
     <Compile Include="Migrations\201508251621515_ProjectSizingWorksheet Update.Designer.cs">
       <DependentUpon>201508251621515_ProjectSizingWorksheet Update.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201508261847152_ProjectSizingScore Update 2.cs" />
+    <Compile Include="Migrations\201508261847152_ProjectSizingScore Update 2.Designer.cs">
+      <DependentUpon>201508261847152_ProjectSizingScore Update 2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\BudgetPlan.cs" />
@@ -473,6 +477,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201508251621515_ProjectSizingWorksheet Update.resx">
       <DependentUpon>201508251621515_ProjectSizingWorksheet Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508261847152_ProjectSizingScore Update 2.resx">
+      <DependentUpon>201508261847152_ProjectSizingScore Update 2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -27,7 +27,7 @@
                 @Html.ValidationMessageFor(model => model.ProjectID, "", new { @class = "text-danger" })
             </div>
         </div>
-
+        <hr />
         <div class="form-group">
             @Html.LabelFor(model => model.Question1Value, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-2">
@@ -52,7 +52,7 @@
         </div>
 
         @* Project Duration/Schedule *@
-        <div class="form-group">
+        <div class="form-group ">
             @Html.LabelFor(model => model.Question2Value, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-2">
                 <p class="text-justify">&lt;3 months. schedule is flexible</p>
@@ -74,7 +74,7 @@
                 @Html.ValidationMessageFor(model => model.Question2Value, "", new { @class = "text-danger" })
             </div>
         </div>
-
+        <hr />
         @* Project Complexity *@
         <div class="form-group">
             @Html.LabelFor(model => model.Question3Value, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -128,7 +128,7 @@
                 @Html.ValidationMessageFor(model => model.Question4Value, "", new { @class = "text-danger" })
             </div>
         </div>
-
+        <hr />
         @* Strategic Importance *@
         <div class="form-group">
             @Html.LabelFor(model => model.Question5Value, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -176,7 +176,7 @@
                 @Html.ValidationMessageFor(model => model.Question6Value, "", new { @class = "text-danger" })
             </div>
         </div>
-
+        <hr />
         @* Requirement stability  *@
         <div class="form-group">
             @Html.LabelFor(model => model.Question7Value, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -224,7 +224,7 @@
                 @Html.ValidationMessageFor(model => model.Question8Value, "", new { @class = "text-danger" })
             </div>
         </div>
-
+        <hr />
         @* External Dependencies and Inter-related Projects *@
         <div class="form-group">
             @Html.LabelFor(model => model.Question9Value, htmlAttributes: new { @class = "control-label col-md-2" })
